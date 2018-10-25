@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 while [ 1 ]
 do
   curator --config /config.yml /delete-indices.yml
