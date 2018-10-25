@@ -1,0 +1,5 @@
+client:
+  hosts: ${AWS_ELASTICSEARCH_HOSTNAME}
+  port: 443
+  use_ssl: True
+  master_only: True

@@ -1,0 +1,7 @@
+action: delete_indices
+filters:
+- filterType: age
+  unit: ${UNIT:days}
+  unit_count: ${AGE}
+  source: creation_date
+  direction: older
